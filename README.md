@@ -11,7 +11,7 @@ Link to Tampermonkey Extension: https://chrome.google.com/webstore/detail/tamper
 
 ## Hotkeys
 ### Scrape Answers (`Alt + R`)
-Before we can use the auto answer we first must get the answers, when you first play the game after about 5 seconds it gives the player an option to "give up" which will show all of the answers. This script utilizes the information from that screen to learn the answers for each question. For it to correctly answer all questions, make sure to press Alt + R before each quiz to refresh the answers list.
+Before we can use the auto answer we first must get the answers, when you first play the game after about 5 seconds it gives the player an option to "give up" which will show all of the answers. This script utilizes the information from that screen to learn the answers for each question. For it to correctly answer all questions, make sure to press `Alt + R` before each quiz to refresh the answers list.
 
 ### Start Auto answer (`Alt + A`)
 Once you have pressed the start game button, using the hotkey `Alt + A` will fully-automatically answer and submit all questions (how wonderful!) It should ask you for a time interval (in milliseconds) at which it answers the questions.
