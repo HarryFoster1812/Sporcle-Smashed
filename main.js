@@ -74,12 +74,12 @@
     document.addEventListener("keydown", (event) => {
         if (event.altKey && event.keyCode === 87) {
             let score = document.getElementsByClassName('currentScore')[0];
-            let percentage = document.getElementById('currentScore');
+            let percentage = document.getElementById('userPct');
             let new_score = parseInt(prompt('What is your new score'));
             let total = score.textContent.split('/')[1];
             total = parseInt(total);
-            score.textContent = new_score.concat('/', total);
-            percentage.textContent = Math.round(new_score/total);
+            score.textContent = new_score.toString().concat('/', total.toString());
+            percentage.textContent = Math.round((new_score/total)*100);
         };
     });
 
